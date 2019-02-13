@@ -1,3 +1,5 @@
+package Chapter1.Kanishk.P1;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
 public class CharacterUniquenessTest {
-    CharacterUniqueness characterUniqueness;
+    Chapter1.Kanishk.P1.CharacterUniqueness characterUniqueness;
     private String input;
     private boolean expected;
 
@@ -25,23 +27,22 @@ public class CharacterUniquenessTest {
         return Arrays.asList(new Object[][]{
                 {"abcd", true},
                 {"AbAc", false},
-                {"abecE@12", false},
-                {"abcde#121", true},
-                {"  ab", true},
+                {"abecE@12", true},
+                {"abcde#121", false},
+                {"  ab", false},
                 {"ZabcY", true},
-                {"",false},
-                {null,false}
+                {"",true}
         });
     }
 
     @Before
     public void testSetup() throws Exception {
-        characterUniqueness = new CharacterUniqueness();
+        characterUniqueness = new Chapter1.Kanishk.P1.CharacterUniqueness();
     }
 
     @Test
     public void findIsStringHasUniqueCharacter() throws Exception {
-        boolean result = characterUniqueness.checkUnique(input);
+        boolean result = characterUniqueness.isUnique(input);
         assertEquals(expected, result);
     }
 }

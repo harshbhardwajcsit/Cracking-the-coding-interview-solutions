@@ -1,0 +1,129 @@
+target/
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.iml
+local.properties
+.classpath
+.settings/
+.loadpath
+test-output/
+/elements-client/*.tern-project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+# }}}
+
+# Netbeans .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/NetBeans.gitignore
+###########################################################################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+# }}}
+
+# IntelliJ .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/IntelliJ.gitignore
+###########################################################################
+*.iml
+*.ipr
+*.iws
+.idea/
+# }}}
+
+# Vim .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/vim.gitignore
+#######################################################################
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+# }}}
+
+# Emacs .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore
+########################################################################
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+# }}}
+
+# Textmate .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/TextMate.gitignore
+###########################################################################
+*.tmproj
+*.tmproject
+tmtags
+# }}}
+
+# SublimeText .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/SublimeText.gitignore
+###############################################################################
+# SublimeText project files
+*.sublime-workspace
+# }}}
+
+# Tags .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/Tags.gitignore
+#######################################################################
+# Ignore tags created by etags and ctags
+TAGS
+!TAGS/
+tags
+!tags/
+# }}}
+
+# SASS .gitignore template# {{{
+# https://github.com/github/gitignore/blob/master/Global/SASS.gitignore
+#######################################################################
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+# }}}
+
+#packing-only formats
+*.iso
+*.tar
+
+#package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+# }}}
+# }}}
+
+# End of file .gitconfig and vim modeline {{{
+# vim:fen:fdm=marker:fmr={{{,}}}:fdl=0:fdc=1:et:ts=2:sw=2:sts=2
+/target-ide/

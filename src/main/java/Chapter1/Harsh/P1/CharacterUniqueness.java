@@ -1,3 +1,5 @@
+package Chapter1.Harsh.P1;
+
 import java.util.Arrays;
 
 class CharacterUniqueness {
